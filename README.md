@@ -2,7 +2,7 @@
 This project focuses on ranking the best college towns for remote workers. By leveraging AWS services(S3, EC2,RDS and Quicksight), utilising ETL (Extract, Transform, Load) using Mage-AI data pipeline, we integrate and analyze data from various sources to provide valuable insights. The goal is to empower remote workers in selecting the most suitable college towns based on criteria such as internet speed, median income, coworking spaces, cost of living, and active mobility.
 
 ### Architecture:
-![architecure](https://github.com/LoveNui/College-Data-ETL-AWS-Mage-Pipeline/blob/main/architecture.png)
+![architecure](https://github.com/hector980112/College-Data-ETL-AWS-Mage-Pipeline/blob/main/architecture.png)
 
 ### Data sources
 <!DOCTYPE html>
@@ -52,7 +52,7 @@ This project focuses on ranking the best college towns for remote workers. By le
 Data was collected from various sources, such as Wikipedia, Speedtest, Bestplaces, Walkscore, and CityFeet, using Python with BeautifulSoup and Selenium frameworks for web scraping. The collected data is stored in AWS S3 buckets. Mage-AI data pipeline was used for ETL, the data was cleaned and prepared during transformation phase before loading,ensuring data integrity and consistency. The transformed data is then loaded into a PostgreSQL database on AWS RDS, enabling efficient storage and retrieval. 
 
 ## Mage pipeline
-![image](https://github.com/LoveNui/College-Data-ETL-AWS-Mage-Pipeline/blob/main/mage-pipeline-tree.png)
+![image](https://github.com/hector980112/College-Data-ETL-AWS-Mage-Pipeline/blob/main/mage-pipeline-tree.png)
 
 ## Key Insights From Analysis
 After loading the data to postgresql database, the following insights were obtained from the analysis done in the database:
@@ -74,7 +74,7 @@ After loading the data to postgresql database, the following insights were obtai
 | Portales, New Mexico    |        68.0                 |   5    |
 
 ### Data Model
-![ER diagram](https://github.com/LoveNui/College-Data-ETL-AWS-Mage-Pipeline/blob/main/College_Towns_DB_ER_Diagram.png)
+![ER diagram](https://github.com/hector980112/College-Data-ETL-AWS-Mage-Pipeline/blob/main/College_Towns_DB_ER_Diagram.png)
 
 ### Ranking Method
 Ranking Methodology:
